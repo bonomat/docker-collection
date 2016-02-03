@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File-uploader with Node.js</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/stylesheets/styles.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="well well-sm">
+
+			<form id="uploadForm" enctype="multipart/form-data" action="/api/files" method="post">
+				<h2>HA-Proxy Uploader - USE ON OWN RISK</h2>
+				<input type="file" name="dropField" class="form-control">
+				<button type="submit" name="submit" class="btn btn-lg btn-primary btn-block">upload</button>
+			</form>
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "docker-ha-updater",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js app on CentOS using docker to update haProxy",
+  "author": "Daniel Gasienica <daniel@gasienica.ch>",
+  "dependencies": {
+		"express": "~4.11.2",
+		"multer": "~0.1.6",
+		"bootstrap": "~3.3.4"
+  }
+}
